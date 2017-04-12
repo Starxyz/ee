@@ -1,0 +1,12 @@
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUI_SetTextMode.c
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUI_Protected.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUI.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\gui_settextmode.o: ..\uCGUI\Config\GUIConf.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUIType.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\LCD.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\LCD_Protected.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUIDebug.h
+.\objects\gui_settextmode.o: ..\uCGUI\Core\GUI_X.h
+.\objects\gui_settextmode.o: ..\uCGUI\WM\WM_GUI.h

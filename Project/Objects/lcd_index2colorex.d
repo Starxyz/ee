@@ -1,0 +1,16 @@
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\LCD_Index2ColorEx.c
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUI_Private.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUI_Protected.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUI.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Config\GUIConf.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUIType.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\LCD.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\LCD_Protected.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUIDebug.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\GUI_X.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\WM\WM_GUI.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\LCD_Private.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Core\LCD_ConfDefaults.h
+.\objects\lcd_index2colorex.o: ..\uCGUI\Config\LCDConf.h

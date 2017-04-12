@@ -1,0 +1,12 @@
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUI_SetColorIndex.c
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUI_Protected.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUI.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Config\GUIConf.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUIType.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\LCD.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\LCD_Protected.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUIDebug.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\Core\GUI_X.h
+.\objects\gui_setcolorindex.o: ..\uCGUI\WM\WM_GUI.h

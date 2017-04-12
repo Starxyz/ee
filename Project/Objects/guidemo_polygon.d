@@ -1,0 +1,10 @@
+.\objects\guidemo_polygon.o: ..\uCGUI\GUIDemo\GUIDEMO_Polygon.c
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\GUI.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Config\GUIConf.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\GUIType.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\LCD.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\guidemo_polygon.o: ..\uCGUI\GUIDemo\GUIDEMO.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Core\LCD_ConfDefaults.h
+.\objects\guidemo_polygon.o: ..\uCGUI\Config\LCDConf.h

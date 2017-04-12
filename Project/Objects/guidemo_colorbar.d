@@ -1,0 +1,10 @@
+.\objects\guidemo_colorbar.o: ..\uCGUI\GUIDemo\GUIDEMO_ColorBar.c
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\LCD.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Config\GUIConf.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\LCD_ConfDefaults.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Config\LCDConf.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\GUI.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\GUIType.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\guidemo_colorbar.o: ..\uCGUI\GUIDemo\GUIDEMO.h

@@ -1,0 +1,10 @@
+.\objects\guipolye.o: ..\uCGUI\Core\GUIPolyE.c
+.\objects\guipolye.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUI.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\guipolye.o: ..\uCGUI\Config\GUIConf.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUIType.h
+.\objects\guipolye.o: ..\uCGUI\Core\LCD.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUIDebug.h
+.\objects\guipolye.o: ..\uCGUI\Core\GUI_X.h

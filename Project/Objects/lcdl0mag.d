@@ -1,0 +1,17 @@
+.\objects\lcdl0mag.o: ..\uCGUI\Core\LCDL0Mag.c
+.\objects\lcdl0mag.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUI_Private.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUI_Protected.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUI.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\lcdl0mag.o: ..\uCGUI\Config\GUIConf.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUIType.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\LCD.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\LCD_Protected.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUIDebug.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\GUI_X.h
+.\objects\lcdl0mag.o: ..\uCGUI\WM\WM_GUI.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\LCD_Private.h
+.\objects\lcdl0mag.o: ..\uCGUI\Core\LCD_ConfDefaults.h
+.\objects\lcdl0mag.o: ..\uCGUI\Config\LCDConf.h

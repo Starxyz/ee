@@ -1,0 +1,13 @@
+.\objects\gui_x_touch.o: ..\uCGUI\GUI_X\GUI_X_Touch.c
+.\objects\gui_x_touch.o: ..\USER\prohead.h
+.\objects\gui_x_touch.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_x_touch.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_x_touch.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\GUI.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\GUI_ConfDefaults.h
+.\objects\gui_x_touch.o: ..\uCGUI\Config\GUIConf.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\GUIType.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\LCD.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\gui_x_touch.o: ..\uCGUI\Core\GUI_X.h
+.\objects\gui_x_touch.o: ..\uCGUI\Config\LCDConf.h
