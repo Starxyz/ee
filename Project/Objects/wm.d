@@ -1,6 +1,6 @@
 .\objects\wm.o: ..\uCGUI\WM\WM.c
-.\objects\wm.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\wm.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\wm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\wm.o: ..\uCGUI\WM\WM_Intern_ConfDep.h
 .\objects\wm.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm.o: ..\uCGUI\WM\WM.h

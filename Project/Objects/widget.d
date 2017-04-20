@@ -1,6 +1,6 @@
 .\objects\widget.o: ..\uCGUI\Widget\WIDGET.c
-.\objects\widget.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\widget.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\widget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\widget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\widget.o: ..\uCGUI\Widget\WIDGET.h
 .\objects\widget.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\widget.o: ..\uCGUI\WM\WM.h

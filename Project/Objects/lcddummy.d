@@ -1,8 +1,8 @@
 .\objects\lcddummy.o: ..\uCGUI\LCDDriver\LCDDummy.c
 .\objects\lcddummy.o: ..\USER\prohead.h
-.\objects\lcddummy.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\lcddummy.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\lcddummy.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcddummy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\lcddummy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lcddummy.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcddummy.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\lcddummy.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\lcddummy.o: ..\uCGUI\Config\LCDConf.h

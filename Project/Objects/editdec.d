@@ -1,5 +1,5 @@
 .\objects\editdec.o: ..\uCGUI\Widget\EDITDec.c
-.\objects\editdec.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\editdec.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\editdec.o: ..\uCGUI\Widget\EDIT.h
 .\objects\editdec.o: ..\uCGUI\WM\WM.h
 .\objects\editdec.o: ..\uCGUI\Core\GUI_ConfDefaults.h

@@ -1,5 +1,5 @@
 .\objects\gui_cursorarrowm.o: ..\uCGUI\Core\GUI_CursorArrowM.c
-.\objects\gui_cursorarrowm.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_cursorarrowm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gui_cursorarrowm.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_cursorarrowm.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_cursorarrowm.o: ..\uCGUI\Core\GUI_ConfDefaults.h

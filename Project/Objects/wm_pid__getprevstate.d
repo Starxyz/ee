@@ -1,5 +1,5 @@
 .\objects\wm_pid__getprevstate.o: ..\uCGUI\WM\WM_PID__GetPrevState.c
-.\objects\wm_pid__getprevstate.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm_pid__getprevstate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm_pid__getprevstate.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm_pid__getprevstate.o: ..\uCGUI\WM\WM.h
 .\objects\wm_pid__getprevstate.o: ..\uCGUI\Core\GUI_ConfDefaults.h

@@ -1,6 +1,6 @@
 .\objects\framewin_setfont.o: ..\uCGUI\Widget\FRAMEWIN_SetFont.c
-.\objects\framewin_setfont.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\framewin_setfont.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\framewin_setfont.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\framewin_setfont.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\framewin_setfont.o: ..\uCGUI\Widget\FRAMEWIN_Private.h
 .\objects\framewin_setfont.o: ..\uCGUI\WM\WM.h
 .\objects\framewin_setfont.o: ..\uCGUI\Core\GUI_ConfDefaults.h

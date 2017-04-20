@@ -1,5 +1,5 @@
 .\objects\multiedit_createindirect.o: ..\uCGUI\Widget\MULTIEDIT_CreateIndirect.c
-.\objects\multiedit_createindirect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\multiedit_createindirect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\multiedit_createindirect.o: ..\uCGUI\Widget\MULTIEDIT.h
 .\objects\multiedit_createindirect.o: ..\uCGUI\WM\WM.h
 .\objects\multiedit_createindirect.o: ..\uCGUI\Core\GUI_ConfDefaults.h

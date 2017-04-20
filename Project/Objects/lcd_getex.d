@@ -1,5 +1,5 @@
 .\objects\lcd_getex.o: ..\uCGUI\Core\LCD_GetEx.c
-.\objects\lcd_getex.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_getex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcd_getex.o: ..\uCGUI\Core\LCD.h
 .\objects\lcd_getex.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\lcd_getex.o: ..\uCGUI\Config\GUIConf.h

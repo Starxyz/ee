@@ -1,5 +1,5 @@
 .\objects\gui_bmp.o: ..\uCGUI\Core\GUI_BMP.c
-.\objects\gui_bmp.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_bmp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gui_bmp.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\gui_bmp.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_bmp.o: ..\uCGUI\Core\GUI.h

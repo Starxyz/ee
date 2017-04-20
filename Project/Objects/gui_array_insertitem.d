@@ -13,4 +13,4 @@
 .\objects\gui_array_insertitem.o: ..\uCGUI\Core\LCD_Protected.h
 .\objects\gui_array_insertitem.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\gui_array_insertitem.o: ..\uCGUI\Core\GUI_X.h
-.\objects\gui_array_insertitem.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_array_insertitem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

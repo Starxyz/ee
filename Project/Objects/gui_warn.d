@@ -1,6 +1,6 @@
 .\objects\gui_warn.o: ..\uCGUI\Core\GUI_Warn.c
-.\objects\gui_warn.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gui_warn.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_warn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_warn.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_warn.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_warn.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_warn.o: ..\uCGUI\Core\GUI_ConfDefaults.h

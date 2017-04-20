@@ -7,10 +7,10 @@
 .\objects\jidctint.o: ..\uCGUI\Core\GUIType.h
 .\objects\jidctint.o: ..\uCGUI\Core\LCD.h
 .\objects\jidctint.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jidctint.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jidctint.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jidctint.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jidctint.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jidctint.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jidctint.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jidctint.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jidctint.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jidctint.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jidctint.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jidctint.o: ..\uCGUI\JPEG\jpegint.h

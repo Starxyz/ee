@@ -13,8 +13,8 @@
 .\objects\dropdown.o: ..\uCGUI\Core\LCD_Protected.h
 .\objects\dropdown.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\dropdown.o: ..\uCGUI\Core\GUI_X.h
-.\objects\dropdown.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\dropdown.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dropdown.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dropdown.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\dropdown.o: ..\uCGUI\Widget\DROPDOWN.h
 .\objects\dropdown.o: ..\uCGUI\Widget\DIALOG_Intern.h
 .\objects\dropdown.o: ..\uCGUI\Widget\DROPDOWN_Private.h

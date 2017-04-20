@@ -14,5 +14,5 @@
 .\objects\guiaachar4.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\guiaachar4.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\guiaachar4.o: ..\uCGUI\Config\LCDConf.h
-.\objects\guiaachar4.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\guiaachar4.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guiaachar4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\guiaachar4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

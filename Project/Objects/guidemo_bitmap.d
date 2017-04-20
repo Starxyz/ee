@@ -8,6 +8,6 @@
 .\objects\guidemo_bitmap.o: ..\uCGUI\GUIDemo\GUIDEMO.h
 .\objects\guidemo_bitmap.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\guidemo_bitmap.o: ..\uCGUI\Config\LCDConf.h
-.\objects\guidemo_bitmap.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guidemo_bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\guidemo_bitmap.o: ..\uCGUI\WM\WM.h
 .\objects\guidemo_bitmap.o: ..\uCGUI\WM\WM_GUI.h

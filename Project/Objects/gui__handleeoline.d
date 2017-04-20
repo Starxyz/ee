@@ -1,5 +1,5 @@
 .\objects\gui__handleeoline.o: ..\uCGUI\Core\GUI__HandleEOLine.c
-.\objects\gui__handleeoline.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui__handleeoline.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui__handleeoline.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui__handleeoline.o: ..\uCGUI\Core\GUI.h
 .\objects\gui__handleeoline.o: ..\uCGUI\Core\GUI_ConfDefaults.h

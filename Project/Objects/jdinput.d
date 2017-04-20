@@ -7,10 +7,10 @@
 .\objects\jdinput.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdinput.o: ..\uCGUI\Core\LCD.h
 .\objects\jdinput.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdinput.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdinput.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdinput.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdinput.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdinput.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdinput.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdinput.o: ..\uCGUI\JPEG\jpegint.h

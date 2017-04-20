@@ -1,6 +1,6 @@
 .\objects\slider.o: ..\uCGUI\Widget\SLIDER.c
-.\objects\slider.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\slider.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\slider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\slider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\slider.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\slider.o: ..\uCGUI\Core\GUI.h
 .\objects\slider.o: ..\uCGUI\Core\GUI_ConfDefaults.h

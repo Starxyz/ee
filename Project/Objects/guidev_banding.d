@@ -1,5 +1,5 @@
 .\objects\guidev_banding.o: ..\uCGUI\MemDev\GUIDEV_Banding.c
-.\objects\guidev_banding.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_banding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guidev_banding.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\guidev_banding.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guidev_banding.o: ..\uCGUI\Core\GUI.h

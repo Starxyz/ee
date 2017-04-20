@@ -1,5 +1,5 @@
 .\objects\wm_setcallback.o: ..\uCGUI\WM\WM_SetCallback.c
-.\objects\wm_setcallback.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm_setcallback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm_setcallback.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm_setcallback.o: ..\uCGUI\WM\WM.h
 .\objects\wm_setcallback.o: ..\uCGUI\Core\GUI_ConfDefaults.h

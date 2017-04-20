@@ -1,5 +1,5 @@
 .\objects\edit_setcursoratchar.o: ..\uCGUI\Widget\EDIT_SetCursorAtChar.c
-.\objects\edit_setcursoratchar.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\edit_setcursoratchar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\edit_setcursoratchar.o: ..\uCGUI\Widget\EDIT.h
 .\objects\edit_setcursoratchar.o: ..\uCGUI\WM\WM.h
 .\objects\edit_setcursoratchar.o: ..\uCGUI\Core\GUI_ConfDefaults.h

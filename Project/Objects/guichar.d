@@ -1,6 +1,6 @@
 .\objects\guichar.o: ..\uCGUI\Core\GUIChar.c
-.\objects\guichar.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\guichar.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\guichar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guichar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\guichar.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guichar.o: ..\uCGUI\Core\GUI.h
 .\objects\guichar.o: ..\uCGUI\Core\GUI_ConfDefaults.h

@@ -1,6 +1,6 @@
 .\objects\edit.o: ..\uCGUI\Widget\EDIT.c
-.\objects\edit.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\edit.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\edit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\edit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\edit.o: ..\uCGUI\Widget\EDIT.h
 .\objects\edit.o: ..\uCGUI\WM\WM.h
 .\objects\edit.o: ..\uCGUI\Core\GUI_ConfDefaults.h

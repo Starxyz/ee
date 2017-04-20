@@ -1,5 +1,5 @@
 .\objects\framewin_setresizeable.o: ..\uCGUI\Widget\FRAMEWIN_SetResizeable.c
-.\objects\framewin_setresizeable.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\framewin_setresizeable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\framewin_setresizeable.o: ..\uCGUI\Widget\FRAMEWIN_Private.h
 .\objects\framewin_setresizeable.o: ..\uCGUI\WM\WM.h
 .\objects\framewin_setresizeable.o: ..\uCGUI\Core\GUI_ConfDefaults.h

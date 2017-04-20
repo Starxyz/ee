@@ -1,6 +1,6 @@
 .\objects\widget_seteffect.o: ..\uCGUI\Widget\WIDGET_SetEffect.c
-.\objects\widget_seteffect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\widget_seteffect.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\widget_seteffect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\widget_seteffect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\widget_seteffect.o: ..\uCGUI\Core\GUI.h
 .\objects\widget_seteffect.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\widget_seteffect.o: ..\uCGUI\Config\GUIConf.h

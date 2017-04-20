@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_flash.o: ..\Libraries\inc\stm32f4xx_flash.h
 .\objects\stm32f4xx_flash.o: ..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\objects\stm32f4xx_flash.o: ..\CMSIS\Include\core_cm4.h
-.\objects\stm32f4xx_flash.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_flash.o: ..\CMSIS\Include\core_cmInstr.h
 .\objects\stm32f4xx_flash.o: ..\CMSIS\Include\core_cmFunc.h
 .\objects\stm32f4xx_flash.o: ..\CMSIS\Include\core_cm4_simd.h

@@ -1,5 +1,5 @@
 .\objects\guidemo_navi.o: ..\uCGUI\GUIDemo\GUIDEMO_Navi.c
-.\objects\guidemo_navi.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guidemo_navi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\guidemo_navi.o: ..\uCGUI\Core\GUI.h
 .\objects\guidemo_navi.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\guidemo_navi.o: ..\uCGUI\Config\GUIConf.h
@@ -14,4 +14,4 @@
 .\objects\guidemo_navi.o: ..\uCGUI\Widget\FRAMEWIN.h
 .\objects\guidemo_navi.o: ..\uCGUI\Widget\DIALOG_Intern.h
 .\objects\guidemo_navi.o: ..\uCGUI\GUIDemo\Map.h
-.\objects\guidemo_navi.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\guidemo_navi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

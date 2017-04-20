@@ -1,5 +1,5 @@
 .\objects\guidemo_framewin.o: ..\uCGUI\GUIDemo\GUIDEMO_FrameWin.c
-.\objects\guidemo_framewin.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guidemo_framewin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\guidemo_framewin.o: ..\uCGUI\Core\GUI.h
 .\objects\guidemo_framewin.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\guidemo_framewin.o: ..\uCGUI\Config\GUIConf.h

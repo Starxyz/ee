@@ -7,6 +7,6 @@
 .\objects\guidemo_graph.o: ..\uCGUI\Core\GUIVersion.h
 .\objects\guidemo_graph.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\guidemo_graph.o: ..\uCGUI\Config\LCDConf.h
-.\objects\guidemo_graph.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\guidemo_graph.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\guidemo_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guidemo_graph.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\guidemo_graph.o: ..\uCGUI\GUIDemo\GUIDEMO.h

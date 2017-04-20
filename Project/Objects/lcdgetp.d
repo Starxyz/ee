@@ -1,5 +1,5 @@
 .\objects\lcdgetp.o: ..\uCGUI\Core\LCDGetP.c
-.\objects\lcdgetp.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdgetp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcdgetp.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\lcdgetp.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\lcdgetp.o: ..\uCGUI\Core\GUI.h

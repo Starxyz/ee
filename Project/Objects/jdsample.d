@@ -7,10 +7,10 @@
 .\objects\jdsample.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdsample.o: ..\uCGUI\Core\LCD.h
 .\objects\jdsample.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdsample.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdsample.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdsample.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdsample.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdsample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdsample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdsample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdsample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdsample.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdsample.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdsample.o: ..\uCGUI\JPEG\jpegint.h

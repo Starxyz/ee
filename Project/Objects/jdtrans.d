@@ -7,10 +7,10 @@
 .\objects\jdtrans.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdtrans.o: ..\uCGUI\Core\LCD.h
 .\objects\jdtrans.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdtrans.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdtrans.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdtrans.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdtrans.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdtrans.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdtrans.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdtrans.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdtrans.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdtrans.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdtrans.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdtrans.o: ..\uCGUI\JPEG\jpegint.h

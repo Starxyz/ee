@@ -7,10 +7,10 @@
 .\objects\jdmarker.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdmarker.o: ..\uCGUI\Core\LCD.h
 .\objects\jdmarker.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdmarker.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdmarker.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdmarker.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdmarker.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdmarker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdmarker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdmarker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdmarker.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdmarker.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdmarker.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdmarker.o: ..\uCGUI\JPEG\jpegint.h

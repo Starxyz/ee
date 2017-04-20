@@ -1,6 +1,6 @@
 .\objects\gui_log.o: ..\uCGUI\Core\GUI_Log.c
-.\objects\gui_log.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gui_log.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_log.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_log.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_log.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_log.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_log.o: ..\uCGUI\Core\GUI_ConfDefaults.h

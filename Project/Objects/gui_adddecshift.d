@@ -10,4 +10,4 @@
 .\objects\gui_adddecshift.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\gui_adddecshift.o: ..\uCGUI\Core\GUI_X.h
 .\objects\gui_adddecshift.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\gui_adddecshift.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_adddecshift.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

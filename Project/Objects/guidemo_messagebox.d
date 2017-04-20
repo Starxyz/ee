@@ -1,5 +1,5 @@
 .\objects\guidemo_messagebox.o: ..\uCGUI\GUIDemo\GUIDEMO_Messagebox.c
-.\objects\guidemo_messagebox.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guidemo_messagebox.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\guidemo_messagebox.o: ..\uCGUI\Core\GUI.h
 .\objects\guidemo_messagebox.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\guidemo_messagebox.o: ..\uCGUI\Config\GUIConf.h

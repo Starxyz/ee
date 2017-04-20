@@ -1,5 +1,5 @@
 .\objects\lcd.o: ..\uCGUI\Core\LCD.c
-.\objects\lcd.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\lcd.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\lcd.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\lcd.o: ..\uCGUI\Core\GUI.h

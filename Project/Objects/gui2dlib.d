@@ -1,5 +1,5 @@
 .\objects\gui2dlib.o: ..\uCGUI\Core\GUI2DLib.c
-.\objects\gui2dlib.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui2dlib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui2dlib.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui2dlib.o: ..\uCGUI\Core\GUI.h
 .\objects\gui2dlib.o: ..\uCGUI\Core\GUI_ConfDefaults.h

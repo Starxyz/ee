@@ -1,5 +1,5 @@
 .\objects\gui_getclientrect.o: ..\uCGUI\Core\GUI_GetClientRect.c
-.\objects\gui_getclientrect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_getclientrect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_getclientrect.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_getclientrect.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_getclientrect.o: ..\uCGUI\Core\GUI_ConfDefaults.h

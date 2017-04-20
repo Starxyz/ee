@@ -1,6 +1,6 @@
 .\objects\gui__settext.o: ..\uCGUI\Core\GUI__SetText.c
-.\objects\gui__settext.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\gui__settext.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui__settext.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui__settext.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui__settext.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui__settext.o: ..\uCGUI\Core\GUI.h
 .\objects\gui__settext.o: ..\uCGUI\Core\GUI_ConfDefaults.h

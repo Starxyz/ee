@@ -1,5 +1,5 @@
 .\objects\radio_settext.o: ..\uCGUI\Widget\RADIO_SetText.c
-.\objects\radio_settext.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\radio_settext.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\radio_settext.o: ..\uCGUI\Widget\RADIO_Private.h
 .\objects\radio_settext.o: ..\uCGUI\WM\WM.h
 .\objects\radio_settext.o: ..\uCGUI\Core\GUI_ConfDefaults.h

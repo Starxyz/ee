@@ -10,4 +10,4 @@
 .\objects\guiaaline.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\guiaaline.o: ..\uCGUI\Core\GUI_X.h
 .\objects\guiaaline.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\guiaaline.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guiaaline.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

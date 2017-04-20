@@ -1,5 +1,5 @@
 .\objects\lcdcolor.o: ..\uCGUI\Core\LCDColor.c
-.\objects\lcdcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcdcolor.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\lcdcolor.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\lcdcolor.o: ..\uCGUI\Core\GUI.h

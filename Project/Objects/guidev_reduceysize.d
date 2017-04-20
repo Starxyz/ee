@@ -10,4 +10,4 @@
 .\objects\guidev_reduceysize.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\guidev_reduceysize.o: ..\uCGUI\Core\GUI_X.h
 .\objects\guidev_reduceysize.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\guidev_reduceysize.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_reduceysize.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

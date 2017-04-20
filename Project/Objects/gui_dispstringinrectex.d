@@ -1,5 +1,5 @@
 .\objects\gui_dispstringinrectex.o: ..\uCGUI\Core\GUI_DispStringInRectEx.c
-.\objects\gui_dispstringinrectex.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_dispstringinrectex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_dispstringinrectex.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\gui_dispstringinrectex.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_dispstringinrectex.o: ..\uCGUI\Core\GUI.h

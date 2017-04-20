@@ -1,5 +1,5 @@
 .\objects\guicirc.o: ..\uCGUI\Core\GUICirc.c
-.\objects\guicirc.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guicirc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\guicirc.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\guicirc.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guicirc.o: ..\uCGUI\Core\GUI.h

@@ -7,10 +7,10 @@
 .\objects\jdcolor.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdcolor.o: ..\uCGUI\Core\LCD.h
 .\objects\jdcolor.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdcolor.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdcolor.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdcolor.o: ..\uCGUI\JPEG\jpegint.h

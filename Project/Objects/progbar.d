@@ -1,6 +1,6 @@
 .\objects\progbar.o: ..\uCGUI\Widget\PROGBAR.c
-.\objects\progbar.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\progbar.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\progbar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\progbar.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\progbar.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\progbar.o: ..\uCGUI\Core\GUI.h
 .\objects\progbar.o: ..\uCGUI\Core\GUI_ConfDefaults.h

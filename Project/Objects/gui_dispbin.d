@@ -10,4 +10,4 @@
 .\objects\gui_dispbin.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\gui_dispbin.o: ..\uCGUI\Core\GUI_X.h
 .\objects\gui_dispbin.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\gui_dispbin.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_dispbin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

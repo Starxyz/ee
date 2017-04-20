@@ -7,10 +7,10 @@
 .\objects\jquant2.o: ..\uCGUI\Core\GUIType.h
 .\objects\jquant2.o: ..\uCGUI\Core\LCD.h
 .\objects\jquant2.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jquant2.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jquant2.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jquant2.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jquant2.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jquant2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jquant2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jquant2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jquant2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jquant2.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jquant2.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jquant2.o: ..\uCGUI\JPEG\jpegint.h

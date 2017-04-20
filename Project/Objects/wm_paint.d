@@ -1,5 +1,5 @@
 .\objects\wm_paint.o: ..\uCGUI\WM\WM_Paint.c
-.\objects\wm_paint.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm_paint.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm_paint.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm_paint.o: ..\uCGUI\WM\WM.h
 .\objects\wm_paint.o: ..\uCGUI\Core\GUI_ConfDefaults.h

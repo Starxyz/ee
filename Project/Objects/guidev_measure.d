@@ -1,5 +1,5 @@
 .\objects\guidev_measure.o: ..\uCGUI\MemDev\GUIDEV_Measure.c
-.\objects\guidev_measure.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_measure.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guidev_measure.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\guidev_measure.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guidev_measure.o: ..\uCGUI\Core\GUI.h

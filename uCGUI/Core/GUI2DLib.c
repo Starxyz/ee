@@ -403,9 +403,9 @@ void GL_DrawPolygon(const GUI_POINT*pPoints, int NumPoints, int x0, int y0) {
   const GUI_POINT* pPoint = pPoints;
   GL_MoveTo(pPoint->x+x0, pPoint->y+y0);
   while (--NumPoints >0) {
-    pPoint++;
+    pPoint++; 
     GL_DrawLineTo(pPoint->x+x0, pPoint->y+y0);
-  }
+  }//在当前坐标到（x+x0，y+y0）画一条直线。
   /* Now draw closing line unless it has already been closed */
   if ( (pPoint->x != pPoints->x)
      ||(pPoint->y != pPoints->y))

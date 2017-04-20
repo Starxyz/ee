@@ -1,5 +1,5 @@
 .\objects\gui_drawbitmapmag.o: ..\uCGUI\Core\GUI_DrawBitmapMag.c
-.\objects\gui_drawbitmapmag.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_drawbitmapmag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_drawbitmapmag.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\gui_drawbitmapmag.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_drawbitmapmag.o: ..\uCGUI\Core\GUI.h

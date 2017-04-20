@@ -8,4 +8,4 @@
 .\objects\guidemo_intro.o: ..\uCGUI\GUIDemo\GUIDEMO.h
 .\objects\guidemo_intro.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\guidemo_intro.o: ..\uCGUI\Config\LCDConf.h
-.\objects\guidemo_intro.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidemo_intro.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

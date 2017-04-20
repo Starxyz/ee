@@ -1,5 +1,5 @@
 .\objects\gui_rectsintersect.o: ..\uCGUI\Core\GUI_RectsIntersect.c
-.\objects\gui_rectsintersect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_rectsintersect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_rectsintersect.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_rectsintersect.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_rectsintersect.o: ..\uCGUI\Core\GUI_ConfDefaults.h

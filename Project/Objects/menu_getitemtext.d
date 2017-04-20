@@ -1,5 +1,5 @@
 .\objects\menu_getitemtext.o: ..\uCGUI\Widget\MENU_GetItemText.c
-.\objects\menu_getitemtext.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\menu_getitemtext.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\menu_getitemtext.o: ..\uCGUI\Widget\MENU.h
 .\objects\menu_getitemtext.o: ..\uCGUI\WM\WM.h
 .\objects\menu_getitemtext.o: ..\uCGUI\Core\GUI_ConfDefaults.h

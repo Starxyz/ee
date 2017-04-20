@@ -7,10 +7,10 @@
 .\objects\jdapimin.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdapimin.o: ..\uCGUI\Core\LCD.h
 .\objects\jdapimin.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdapimin.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdapimin.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdapimin.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdapimin.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdapimin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdapimin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdapimin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdapimin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdapimin.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdapimin.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdapimin.o: ..\uCGUI\JPEG\jpegint.h

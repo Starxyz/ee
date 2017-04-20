@@ -1,5 +1,5 @@
 .\objects\guidev_usage.o: ..\uCGUI\MemDev\GUIDEV_Usage.c
-.\objects\guidev_usage.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_usage.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guidev_usage.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guidev_usage.o: ..\uCGUI\Core\GUI.h
 .\objects\guidev_usage.o: ..\uCGUI\Core\GUI_ConfDefaults.h

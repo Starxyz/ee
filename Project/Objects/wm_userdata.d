@@ -12,4 +12,4 @@
 .\objects\wm_userdata.o: ..\uCGUI\Core\LCD_Protected.h
 .\objects\wm_userdata.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\wm_userdata.o: ..\uCGUI\Core\GUI_X.h
-.\objects\wm_userdata.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\wm_userdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

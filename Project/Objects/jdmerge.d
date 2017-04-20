@@ -7,10 +7,10 @@
 .\objects\jdmerge.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdmerge.o: ..\uCGUI\Core\LCD.h
 .\objects\jdmerge.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdmerge.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdmerge.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdmerge.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdmerge.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdmerge.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdmerge.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdmerge.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdmerge.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdmerge.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdmerge.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdmerge.o: ..\uCGUI\JPEG\jpegint.h

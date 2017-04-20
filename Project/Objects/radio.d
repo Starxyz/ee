@@ -1,5 +1,5 @@
 .\objects\radio.o: ..\uCGUI\Widget\RADIO.c
-.\objects\radio.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\radio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\radio.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\radio.o: ..\uCGUI\Core\GUI.h
 .\objects\radio.o: ..\uCGUI\Core\GUI_ConfDefaults.h

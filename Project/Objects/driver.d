@@ -2,7 +2,7 @@
 .\objects\driver.o: ..\Libraries\inc\stm32f4xx_rcc.h
 .\objects\driver.o: ..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\objects\driver.o: ..\CMSIS\Include\core_cm4.h
-.\objects\driver.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\driver.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\driver.o: ..\CMSIS\Include\core_cmInstr.h
 .\objects\driver.o: ..\CMSIS\Include\core_cmFunc.h
 .\objects\driver.o: ..\CMSIS\Include\core_cm4_simd.h

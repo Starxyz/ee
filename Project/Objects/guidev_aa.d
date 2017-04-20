@@ -14,4 +14,4 @@
 .\objects\guidev_aa.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\guidev_aa.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\guidev_aa.o: ..\uCGUI\Config\LCDConf.h
-.\objects\guidev_aa.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_aa.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -1,6 +1,6 @@
 .\objects\framewin_buttonmax.o: ..\uCGUI\Widget\FRAMEWIN_ButtonMax.c
-.\objects\framewin_buttonmax.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\framewin_buttonmax.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\framewin_buttonmax.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\framewin_buttonmax.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\framewin_buttonmax.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\framewin_buttonmax.o: ..\uCGUI\Core\GUI.h
 .\objects\framewin_buttonmax.o: ..\uCGUI\Core\GUI_ConfDefaults.h

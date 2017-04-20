@@ -1,6 +1,6 @@
 .\objects\menu.o: ..\uCGUI\Widget\MENU.c
-.\objects\menu.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\menu.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\menu.o: ..\uCGUI\Widget\MENU.h
 .\objects\menu.o: ..\uCGUI\WM\WM.h
 .\objects\menu.o: ..\uCGUI\Core\GUI_ConfDefaults.h

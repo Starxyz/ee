@@ -1,5 +1,5 @@
 .\objects\guidev_writealpha.o: ..\uCGUI\MemDev\GUIDEV_WriteAlpha.c
-.\objects\guidev_writealpha.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_writealpha.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guidev_writealpha.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\guidev_writealpha.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guidev_writealpha.o: ..\uCGUI\Core\GUI.h

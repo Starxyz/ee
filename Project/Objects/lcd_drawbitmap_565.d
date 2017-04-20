@@ -1,5 +1,5 @@
 .\objects\lcd_drawbitmap_565.o: ..\uCGUI\Core\LCD_DrawBitmap_565.c
-.\objects\lcd_drawbitmap_565.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_drawbitmap_565.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcd_drawbitmap_565.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\lcd_drawbitmap_565.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\lcd_drawbitmap_565.o: ..\uCGUI\Core\GUI.h

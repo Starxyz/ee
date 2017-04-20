@@ -1,6 +1,6 @@
 .\objects\framewin_addmenu.o: ..\uCGUI\Widget\FRAMEWIN_AddMenu.c
-.\objects\framewin_addmenu.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\framewin_addmenu.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\framewin_addmenu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\framewin_addmenu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\framewin_addmenu.o: ..\uCGUI\Widget\FRAMEWIN_Private.h
 .\objects\framewin_addmenu.o: ..\uCGUI\WM\WM.h
 .\objects\framewin_addmenu.o: ..\uCGUI\Core\GUI_ConfDefaults.h

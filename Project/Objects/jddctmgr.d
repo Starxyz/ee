@@ -7,10 +7,10 @@
 .\objects\jddctmgr.o: ..\uCGUI\Core\GUIType.h
 .\objects\jddctmgr.o: ..\uCGUI\Core\LCD.h
 .\objects\jddctmgr.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jddctmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jddctmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jddctmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jddctmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jddctmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jddctmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jddctmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jddctmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jddctmgr.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jddctmgr.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jddctmgr.o: ..\uCGUI\JPEG\jpegint.h

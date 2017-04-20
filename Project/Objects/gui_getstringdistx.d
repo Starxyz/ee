@@ -10,4 +10,4 @@
 .\objects\gui_getstringdistx.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\gui_getstringdistx.o: ..\uCGUI\Core\GUI_X.h
 .\objects\gui_getstringdistx.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\gui_getstringdistx.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_getstringdistx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

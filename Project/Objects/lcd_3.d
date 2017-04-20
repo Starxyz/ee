@@ -1,5 +1,5 @@
 .\objects\lcd_3.o: ..\uCGUI\MultiLayer\LCD_3.c
-.\objects\lcd_3.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_3.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcd_3.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\lcd_3.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\lcd_3.o: ..\uCGUI\Config\LCDConf.h

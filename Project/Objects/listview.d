@@ -13,8 +13,8 @@
 .\objects\listview.o: ..\uCGUI\Core\LCD_Protected.h
 .\objects\listview.o: ..\uCGUI\Core\GUIDebug.h
 .\objects\listview.o: ..\uCGUI\Core\GUI_X.h
-.\objects\listview.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\listview.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\listview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\listview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\listview.o: ..\uCGUI\Widget\LISTVIEW_Private.h
 .\objects\listview.o: ..\uCGUI\Widget\LISTVIEW.h
 .\objects\listview.o: ..\uCGUI\Widget\DIALOG.h

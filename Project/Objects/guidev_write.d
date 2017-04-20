@@ -1,5 +1,5 @@
 .\objects\guidev_write.o: ..\uCGUI\MemDev\GUIDEV_Write.c
-.\objects\guidev_write.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guidev_write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guidev_write.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\guidev_write.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guidev_write.o: ..\uCGUI\Core\GUI.h

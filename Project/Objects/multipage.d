@@ -1,6 +1,6 @@
 .\objects\multipage.o: ..\uCGUI\Widget\MULTIPAGE.c
-.\objects\multipage.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\multipage.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\multipage.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\multipage.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\multipage.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\multipage.o: ..\uCGUI\Core\GUI.h
 .\objects\multipage.o: ..\uCGUI\Core\GUI_ConfDefaults.h

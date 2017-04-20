@@ -7,10 +7,10 @@
 .\objects\jdpostct.o: ..\uCGUI\Core\GUIType.h
 .\objects\jdpostct.o: ..\uCGUI\Core\LCD.h
 .\objects\jdpostct.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jdpostct.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jdpostct.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jdpostct.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jdpostct.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jdpostct.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jdpostct.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jdpostct.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jdpostct.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jdpostct.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jdpostct.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jdpostct.o: ..\uCGUI\JPEG\jpegint.h

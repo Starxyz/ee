@@ -1,5 +1,5 @@
 .\objects\gui_touch_storeunstable.o: ..\uCGUI\Core\GUI_TOUCH_StoreUnstable.c
-.\objects\gui_touch_storeunstable.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_touch_storeunstable.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gui_touch_storeunstable.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_touch_storeunstable.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_touch_storeunstable.o: ..\uCGUI\Core\GUI_ConfDefaults.h

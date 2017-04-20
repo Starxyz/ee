@@ -1,5 +1,5 @@
 .\objects\wmtouch.o: ..\uCGUI\WM\WMTouch.c
-.\objects\wmtouch.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wmtouch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wmtouch.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wmtouch.o: ..\uCGUI\WM\WM.h
 .\objects\wmtouch.o: ..\uCGUI\Core\GUI_ConfDefaults.h

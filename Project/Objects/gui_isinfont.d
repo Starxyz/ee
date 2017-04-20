@@ -1,5 +1,5 @@
 .\objects\gui_isinfont.o: ..\uCGUI\Core\GUI_IsInFont.c
-.\objects\gui_isinfont.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_isinfont.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_isinfont.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_isinfont.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_isinfont.o: ..\uCGUI\Core\GUI_ConfDefaults.h

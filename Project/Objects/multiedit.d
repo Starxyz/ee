@@ -1,6 +1,6 @@
 .\objects\multiedit.o: ..\uCGUI\Widget\MULTIEDIT.c
-.\objects\multiedit.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\multiedit.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\multiedit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\multiedit.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\multiedit.o: ..\uCGUI\Widget\MULTIEDIT.h
 .\objects\multiedit.o: ..\uCGUI\WM\WM.h
 .\objects\multiedit.o: ..\uCGUI\Core\GUI_ConfDefaults.h

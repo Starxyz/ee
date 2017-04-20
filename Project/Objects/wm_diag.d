@@ -1,5 +1,5 @@
 .\objects\wm_diag.o: ..\uCGUI\WM\WM_DIAG.c
-.\objects\wm_diag.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm_diag.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm_diag.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm_diag.o: ..\uCGUI\WM\WM.h
 .\objects\wm_diag.o: ..\uCGUI\Core\GUI_ConfDefaults.h

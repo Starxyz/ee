@@ -1,5 +1,5 @@
 .\objects\gui_selectlcd.o: ..\uCGUI\Core\GUI_SelectLCD.c
-.\objects\gui_selectlcd.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_selectlcd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\gui_selectlcd.o: ..\uCGUI\Core\GUI_Private.h
 .\objects\gui_selectlcd.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_selectlcd.o: ..\uCGUI\Core\GUI.h

@@ -1,6 +1,6 @@
 .\objects\text_setfont.o: ..\uCGUI\Widget\TEXT_SetFont.c
-.\objects\text_setfont.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\text_setfont.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\text_setfont.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\text_setfont.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\text_setfont.o: ..\uCGUI\Widget\TEXT.h
 .\objects\text_setfont.o: ..\uCGUI\WM\WM.h
 .\objects\text_setfont.o: ..\uCGUI\Core\GUI_ConfDefaults.h

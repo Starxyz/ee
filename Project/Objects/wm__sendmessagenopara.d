@@ -1,5 +1,5 @@
 .\objects\wm__sendmessagenopara.o: ..\uCGUI\WM\WM__SendMessageNoPara.c
-.\objects\wm__sendmessagenopara.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm__sendmessagenopara.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm__sendmessagenopara.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm__sendmessagenopara.o: ..\uCGUI\WM\WM.h
 .\objects\wm__sendmessagenopara.o: ..\uCGUI\Core\GUI_ConfDefaults.h

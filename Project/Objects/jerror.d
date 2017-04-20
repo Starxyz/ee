@@ -7,10 +7,10 @@
 .\objects\jerror.o: ..\uCGUI\Core\GUIType.h
 .\objects\jerror.o: ..\uCGUI\Core\LCD.h
 .\objects\jerror.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jerror.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jerror.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jerror.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jerror.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jerror.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jerror.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jerror.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jerror.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jerror.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jerror.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jerror.o: ..\uCGUI\JPEG\jversion.h

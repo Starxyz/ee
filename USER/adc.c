@@ -44,9 +44,11 @@ void Adc_Init(void)
 u16 Get_Adc(u8 ch)   
 {
 	  	//设置指定ADC的规则组通道，一个序列，采样时间
-	ADC_RegularChannelConfig(ADC1, ch, 1, ADC_SampleTime_480Cycles );	//ADC1,ADC通道,480个周期,提高采样时间可以提高精确度			    
+	ADC_RegularChannelConfig(ADC1, ch, 1, ADC_SampleTime_480Cycles );
+	//ADC1,ADC通道,480个周期,提高采样时间可以提高精确度			    
   
-	ADC_SoftwareStartConv(ADC1);		//使能指定的ADC1的软件转换启动功能	
+	ADC_SoftwareStartConv(ADC1);		
+	//使能指定的ADC1的软件转换启动功能	
 	 
 	while(!ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC ));//等待转换结束
 
@@ -63,7 +65,7 @@ u16 Get_Adc_Average(u8 ch,u8 times)
 	for(t=0;t<times;t++)
 	{
 		temp_val+=Get_Adc(ch);
-		delay_ms(5);
+//		delay_ms(5);
 	}
 	return temp_val/times;
 } 

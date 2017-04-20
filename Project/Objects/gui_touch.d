@@ -1,5 +1,5 @@
 .\objects\gui_touch.o: ..\uCGUI\Core\GUI_TOUCH.c
-.\objects\gui_touch.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_touch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_touch.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\gui_touch.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\gui_touch.o: ..\uCGUI\Config\LCDConf.h

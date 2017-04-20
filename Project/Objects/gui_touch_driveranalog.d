@@ -1,7 +1,7 @@
 .\objects\gui_touch_driveranalog.o: ..\uCGUI\Core\GUI_TOUCH_DriverAnalog.c
-.\objects\gui_touch_driveranalog.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gui_touch_driveranalog.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\gui_touch_driveranalog.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_touch_driveranalog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_touch_driveranalog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_touch_driveranalog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_touch_driveranalog.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\gui_touch_driveranalog.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\gui_touch_driveranalog.o: ..\uCGUI\Config\LCDConf.h

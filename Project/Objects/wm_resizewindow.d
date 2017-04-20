@@ -1,5 +1,5 @@
 .\objects\wm_resizewindow.o: ..\uCGUI\WM\WM_ResizeWindow.c
-.\objects\wm_resizewindow.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wm_resizewindow.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\wm_resizewindow.o: ..\uCGUI\WM\WM_Intern.h
 .\objects\wm_resizewindow.o: ..\uCGUI\WM\WM.h
 .\objects\wm_resizewindow.o: ..\uCGUI\Core\GUI_ConfDefaults.h

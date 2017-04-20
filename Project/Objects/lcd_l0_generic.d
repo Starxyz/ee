@@ -1,5 +1,5 @@
 .\objects\lcd_l0_generic.o: ..\uCGUI\Core\LCD_L0_Generic.c
-.\objects\lcd_l0_generic.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_l0_generic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcd_l0_generic.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\lcd_l0_generic.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\lcd_l0_generic.o: ..\uCGUI\Config\LCDConf.h

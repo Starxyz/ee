@@ -1,6 +1,6 @@
 .\objects\framewin_minmaxrest.o: ..\uCGUI\Widget\FRAMEWIN_MinMaxRest.c
-.\objects\framewin_minmaxrest.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\framewin_minmaxrest.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\framewin_minmaxrest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\framewin_minmaxrest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\framewin_minmaxrest.o: ..\uCGUI\Widget\FRAMEWIN_Private.h
 .\objects\framewin_minmaxrest.o: ..\uCGUI\WM\WM.h
 .\objects\framewin_minmaxrest.o: ..\uCGUI\Core\GUI_ConfDefaults.h

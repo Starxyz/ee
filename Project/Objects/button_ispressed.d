@@ -1,5 +1,5 @@
 .\objects\button_ispressed.o: ..\uCGUI\Widget\BUTTON_IsPressed.c
-.\objects\button_ispressed.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\button_ispressed.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\button_ispressed.o: ..\uCGUI\Widget\BUTTON.h
 .\objects\button_ispressed.o: ..\uCGUI\WM\WM.h
 .\objects\button_ispressed.o: ..\uCGUI\Core\GUI_ConfDefaults.h

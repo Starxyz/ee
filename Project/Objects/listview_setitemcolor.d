@@ -1,5 +1,5 @@
 .\objects\listview_setitemcolor.o: ..\uCGUI\Widget\LISTVIEW_SetItemColor.c
-.\objects\listview_setitemcolor.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\listview_setitemcolor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\listview_setitemcolor.o: ..\uCGUI\Widget\LISTVIEW_Private.h
 .\objects\listview_setitemcolor.o: ..\uCGUI\WM\WM.h
 .\objects\listview_setitemcolor.o: ..\uCGUI\Core\GUI_ConfDefaults.h

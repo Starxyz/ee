@@ -1,5 +1,5 @@
 .\objects\lcd_mixcolors256.o: ..\uCGUI\Core\LCD_MixColors256.c
-.\objects\lcd_mixcolors256.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcd_mixcolors256.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcd_mixcolors256.o: ..\uCGUI\Core\LCD.h
 .\objects\lcd_mixcolors256.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\lcd_mixcolors256.o: ..\uCGUI\Config\GUIConf.h

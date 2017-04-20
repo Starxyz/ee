@@ -1,6 +1,6 @@
 .\objects\gui_dispstringinrect.o: ..\uCGUI\Core\GUI_DispStringInRect.c
-.\objects\gui_dispstringinrect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\gui_dispstringinrect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_dispstringinrect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_dispstringinrect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\gui_dispstringinrect.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_dispstringinrect.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_dispstringinrect.o: ..\uCGUI\Core\GUI_ConfDefaults.h

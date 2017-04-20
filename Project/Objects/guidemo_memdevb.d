@@ -10,4 +10,4 @@
 .\objects\guidemo_memdevb.o: ..\uCGUI\Config\LCDConf.h
 .\objects\guidemo_memdevb.o: ..\uCGUI\WM\WM.h
 .\objects\guidemo_memdevb.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\guidemo_memdevb.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\guidemo_memdevb.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,5 +1,5 @@
 .\objects\seggerlogoblue.o: ..\uCGUI\GUIDemo\SeggerLogoBlue.c
-.\objects\seggerlogoblue.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\seggerlogoblue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\seggerlogoblue.o: ..\uCGUI\Core\GUI.h
 .\objects\seggerlogoblue.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\seggerlogoblue.o: ..\uCGUI\Config\GUIConf.h

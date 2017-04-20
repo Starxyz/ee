@@ -1,5 +1,5 @@
 .\objects\gui_mouse.o: ..\uCGUI\Core\GUI_MOUSE.c
-.\objects\gui_mouse.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_mouse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_mouse.o: ..\uCGUI\Core\LCD_Private.h
 .\objects\gui_mouse.o: ..\uCGUI\Core\LCD_ConfDefaults.h
 .\objects\gui_mouse.o: ..\uCGUI\Config\LCDConf.h

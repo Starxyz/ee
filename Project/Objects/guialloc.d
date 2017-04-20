@@ -1,6 +1,6 @@
 .\objects\guialloc.o: ..\uCGUI\Core\GUIAlloc.c
-.\objects\guialloc.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\guialloc.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\guialloc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guialloc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\guialloc.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\guialloc.o: ..\uCGUI\Core\GUI.h
 .\objects\guialloc.o: ..\uCGUI\Core\GUI_ConfDefaults.h

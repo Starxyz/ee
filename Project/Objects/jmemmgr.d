@@ -7,10 +7,10 @@
 .\objects\jmemmgr.o: ..\uCGUI\Core\GUIType.h
 .\objects\jmemmgr.o: ..\uCGUI\Core\LCD.h
 .\objects\jmemmgr.o: ..\uCGUI\Core\GUIVersion.h
-.\objects\jmemmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\jmemmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\jmemmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\jmemmgr.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\jmemmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\jmemmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\jmemmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\jmemmgr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\jmemmgr.o: ..\uCGUI\JPEG\jpeglib.h
 .\objects\jmemmgr.o: ..\uCGUI\JPEG\jmorecfg.h
 .\objects\jmemmgr.o: ..\uCGUI\JPEG\jpegint.h

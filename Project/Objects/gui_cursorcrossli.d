@@ -1,5 +1,5 @@
 .\objects\gui_cursorcrossli.o: ..\uCGUI\Core\GUI_CursorCrossLI.c
-.\objects\gui_cursorcrossli.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_cursorcrossli.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gui_cursorcrossli.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_cursorcrossli.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_cursorcrossli.o: ..\uCGUI\Core\GUI_ConfDefaults.h

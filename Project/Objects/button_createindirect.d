@@ -1,5 +1,5 @@
 .\objects\button_createindirect.o: ..\uCGUI\Widget\BUTTON_CreateIndirect.c
-.\objects\button_createindirect.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\button_createindirect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\button_createindirect.o: ..\uCGUI\Widget\BUTTON_Private.h
 .\objects\button_createindirect.o: ..\uCGUI\WM\WM.h
 .\objects\button_createindirect.o: ..\uCGUI\Core\GUI_ConfDefaults.h

@@ -1,5 +1,5 @@
 .\objects\gui_cursorpali.o: ..\uCGUI\Core\GUI_CursorPalI.c
-.\objects\gui_cursorpali.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gui_cursorpali.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gui_cursorpali.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_cursorpali.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_cursorpali.o: ..\uCGUI\Core\GUI_ConfDefaults.h

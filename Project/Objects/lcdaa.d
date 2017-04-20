@@ -1,5 +1,5 @@
 .\objects\lcdaa.o: ..\uCGUI\Core\LCDAA.c
-.\objects\lcdaa.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lcdaa.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lcdaa.o: ..\uCGUI\Core\LCD.h
 .\objects\lcdaa.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\lcdaa.o: ..\uCGUI\Config\GUIConf.h

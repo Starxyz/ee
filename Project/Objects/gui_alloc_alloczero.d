@@ -1,6 +1,6 @@
 .\objects\gui_alloc_alloczero.o: ..\uCGUI\Core\GUI_ALLOC_AllocZero.c
-.\objects\gui_alloc_alloczero.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\gui_alloc_alloczero.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_alloc_alloczero.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_alloc_alloczero.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_alloc_alloczero.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_alloc_alloczero.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_alloc_alloczero.o: ..\uCGUI\Core\GUI_ConfDefaults.h

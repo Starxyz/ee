@@ -1,7 +1,7 @@
 .\objects\gui_goto.o: ..\uCGUI\Core\GUI_Goto.c
-.\objects\gui_goto.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\gui_goto.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gui_goto.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gui_goto.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gui_goto.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gui_goto.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gui_goto.o: ..\uCGUI\Core\GUI_Protected.h
 .\objects\gui_goto.o: ..\uCGUI\Core\GUI.h
 .\objects\gui_goto.o: ..\uCGUI\Core\GUI_ConfDefaults.h

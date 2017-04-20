@@ -1,5 +1,5 @@
 .\objects\guipolye.o: ..\uCGUI\Core\GUIPolyE.c
-.\objects\guipolye.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\guipolye.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\guipolye.o: ..\uCGUI\Core\GUI.h
 .\objects\guipolye.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\guipolye.o: ..\uCGUI\Config\GUIConf.h

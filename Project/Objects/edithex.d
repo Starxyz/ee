@@ -1,5 +1,5 @@
 .\objects\edithex.o: ..\uCGUI\Widget\EDITHex.c
-.\objects\edithex.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\edithex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\edithex.o: ..\uCGUI\Widget\EDIT.h
 .\objects\edithex.o: ..\uCGUI\WM\WM.h
 .\objects\edithex.o: ..\uCGUI\Core\GUI_ConfDefaults.h

@@ -1,5 +1,5 @@
 .\objects\guidemo.o: ..\uCGUI\GUIDemo\GUIDEMO.c
-.\objects\guidemo.o: E:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guidemo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\guidemo.o: ..\uCGUI\Core\GUI.h
 .\objects\guidemo.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\guidemo.o: ..\uCGUI\Config\GUIConf.h

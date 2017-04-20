@@ -3,7 +3,7 @@
 .\objects\draw.o: ..\USER\includes.h
 .\objects\draw.o: ..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 .\objects\draw.o: ..\CMSIS\Include\core_cm4.h
-.\objects\draw.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\draw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\draw.o: ..\CMSIS\Include\core_cmInstr.h
 .\objects\draw.o: ..\CMSIS\Include\core_cmFunc.h
 .\objects\draw.o: ..\CMSIS\Include\core_cm4_simd.h
@@ -37,7 +37,7 @@
 .\objects\draw.o: ..\Libraries\inc\stm32f4xx_dcmi.h
 .\objects\draw.o: ..\Libraries\inc\stm32f4xx_fsmc.h
 .\objects\draw.o: ..\BSP\BSP.h
-.\objects\draw.o: E:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\draw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\draw.o: ..\uCGUI\Core\GUI.h
 .\objects\draw.o: ..\uCGUI\Core\GUI_ConfDefaults.h
 .\objects\draw.o: ..\uCGUI\Config\GUIConf.h
