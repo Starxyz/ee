@@ -150,7 +150,8 @@ The following is the list of windows messages.
 #define WM_TOUCH_CHILD              13      /* Touch screen message to ancestors */
 #define WM_KEY                      14      /* Key has been pressed */
 
-#define WM_PAINT                    0x000F  /* Repaint window (because content is (partially) invalid */
+#define WM_PAINT                    0x000F  /* Repaint window (because content 
+																									is (partially) invalid */
 
 #if GUI_SUPPORT_MOUSE
 #define WM_MOUSEOVER                16      /* Mouse has moved, no key pressed */
@@ -276,7 +277,10 @@ typedef struct {
   WM_HWIN hWin;         /* Destination window */
   WM_HWIN hWinSrc;      /* Source window  */
   union {
-    const void* p;            /* Some messages need more info ... Pointer is declared "const" because some systems (M16C) have 4 byte const, byte 2 byte default ptrs */
+    const void* p;      /* Some messages need more info ... 
+													Pointer is declared "const" because 
+													some systems (M16C) have 4 byte const, 
+													byte 2 byte default ptrs */
     int v;
     GUI_COLOR Color;
   } Data;

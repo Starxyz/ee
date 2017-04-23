@@ -404,6 +404,11 @@
               <FileType>1</FileType>
               <FilePath>..\SYSTEM\delay\delay.c</FilePath>
             </File>
+            <File>
+              <FileName>FramewinDLG.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\FramewinDLG.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

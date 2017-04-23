@@ -30,6 +30,7 @@ Purpose     : Automotive samples
 #include "EDIT.h"
 #include "SLIDER.h"
 #include "FRAMEWIN.h"
+#include "TEXT.h"
 
 /*********************************************************************
 *

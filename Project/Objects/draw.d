@@ -44,5 +44,7 @@
 .\objects\draw.o: ..\uCGUI\Core\GUIType.h
 .\objects\draw.o: ..\uCGUI\Core\LCD.h
 .\objects\draw.o: ..\uCGUI\Core\GUIVersion.h
+.\objects\draw.o: ..\uCGUI\WM\WM.h
+.\objects\draw.o: ..\uCGUI\WM\WM_GUI.h
 .\objects\draw.o: ..\USER\adc.h
 .\objects\draw.o: ..\SYSTEM\delay\delay.h
