@@ -81,11 +81,15 @@ int main(void)
 //		GUI_SetColor(GUI_BLACK);
 //		DemoRedraw1();
 //		DemoFramewin();
-		CreateFramewin(WM_HBKWIN);
-		WM_Exec();																					
+		WM_HWIN win_id;
+		win_id = CreateFramewin(WM_HBKWIN);
+		WM_Exec();	
+//		WM_HideWindow(win_id);//隐藏刚刚创建的窗口
+		GUI_Clear();		
+//		WM_ShowWindow(win_id);
 		while(1)
 		{
-//				GUIDEMO_main();
+				GUIDEMO_main();
 				DIS_Delayms(10);
 //			  DrawLine();	
 //			adcx=Get_Adc_Average(ch1,5);

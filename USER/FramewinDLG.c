@@ -73,6 +73,8 @@ static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
 *
 *       _cbDialog
 */
+void WM_HideWindow(WM_HWIN hWin);  //??????,hWin??????
+void WM_ShowWindow(WM_HWIN hWin);  //??????,hWin??????
 static void _cbDialog(WM_MESSAGE * pMsg) {
   WM_HWIN hItem;
   int     NCode;
@@ -112,6 +114,7 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
 						CHECKBOX_Uncheck(hItem);//ID_CHECKBOX_0????
 					else 
 						CHECKBOX_Check(hItem);// ID_CHECKBOX_0??
+					
 			// USER END
         break;
       // USER START (Optionally insert additional code for further notification handling)
