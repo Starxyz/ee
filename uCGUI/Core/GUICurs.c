@@ -315,7 +315,7 @@ void GUI_CURSOR_Show(void) {
   GUI_CURSOR_pfTempHide   = _TempHide;
   GUI_CURSOR_pfTempUnhide = _TempUnhide;
   if (!_pCursor) {
-    GUI_CURSOR_Select(GUI_DEFAULT_CURSOR);
+    GUI_CURSOR_Select(GUI_DEFAULT_CURSOR);																					
   } else {
     _Show();
   }

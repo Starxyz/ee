@@ -54,6 +54,11 @@
 //#include "GUI.h"
 extern void GUIDEMO_main(void);
 extern void DIS_Delayms(u16 Num);
+void demo(){
+		WM_HWIN win_id;
+		win_id = CreateFramewin(WM_HBKWIN);
+		
+}
 /*-------------------------------------------------------------------------------------------------------
   程序从这里执行												 
 /-------------------------------------------------------------------------------------------------------*/
@@ -62,7 +67,7 @@ int main(void)
 //测试ADC
 // 	u16 adcx;
 //	float temp;
-	
+	GUI_PID_STATE Point;
 	delay_init(168);	
 	Adc_Init();
 	
@@ -74,36 +79,23 @@ int main(void)
 		Driver_LcdBacklight(True);
 		//启动滴答时钟
 		SysTick_Init();
-		//GUI运行
-//		GUI_SetBkColor(GUI_WHITE);
-//		GUI_Clear();
-//	DIS_Delayms(200);
-//		GUI_SetColor(GUI_BLACK);
-//		DemoRedraw1();
-//		DemoFramewin();
-		WM_HWIN win_id;
-		win_id = CreateFramewin(WM_HBKWIN);
-		WM_Exec();	
+		//GUI运行	
 //		WM_HideWindow(win_id);//隐藏刚刚创建的窗口
-		GUI_Clear();		
-//		WM_ShowWindow(win_id);
+//		GUI_Clear();		
+////		WM_ShowWindow(win_id);
+//		GUI_CURSOR_SetPosition(100,200); 
+		demo();
+//		WM_Exec();
+		GUI_CURSOR_Show();
 		while(1)
 		{
-				GUIDEMO_main();
+//				GUIDEMO_main();
+				GUI_TOUCH_Exec(); //???10ms????
 				DIS_Delayms(10);
-//			  DrawLine();	
-//			adcx=Get_Adc_Average(ch1,5);
-//			GUI_DispDec(adcx,4);
-//			temp=(float)adcx*(3.3/4096);          
-//			adcx=temp;
-//			GUI_DispFloat(temp,9);
-//			GUI_DispString("\n");
-//			temp-=adcx;                           
-//			temp*=1000;                         
-//			GUI_DispDec(temp,4);
-//			DIS_Delayms(2500);
-//			GUI_Clear();
-//			DIS_Delayms(2500);
+				GUI_TOUCH_GetState(&Point);
+				GUI_CURSOR_SetPosition(Point.x,Point.y);
+				WM_Exec();
+				DIS_Delayms(10);
 
 		}
 }
