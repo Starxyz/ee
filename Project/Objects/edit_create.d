@@ -1,9 +1,0 @@
-.\objects\edit_create.o: ..\uCGUI\Widget\EDIT_Create.c
-.\objects\edit_create.o: ..\uCGUI\Widget\EDIT.h
-.\objects\edit_create.o: ..\uCGUI\WM\WM.h
-.\objects\edit_create.o: ..\uCGUI\Core\GUI_ConfDefaults.h
-.\objects\edit_create.o: ..\uCGUI\Config\GUIConf.h
-.\objects\edit_create.o: ..\uCGUI\Core\GUIType.h
-.\objects\edit_create.o: ..\uCGUI\Core\LCD.h
-.\objects\edit_create.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\edit_create.o: ..\uCGUI\Widget\DIALOG_Intern.h

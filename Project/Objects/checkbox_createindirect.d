@@ -1,9 +1,0 @@
-.\objects\checkbox_createindirect.o: ..\uCGUI\Widget\CHECKBOX_CreateIndirect.c
-.\objects\checkbox_createindirect.o: ..\uCGUI\Widget\CHECKBOX.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\WM\WM.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\Core\GUI_ConfDefaults.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\Config\GUIConf.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\Core\GUIType.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\Core\LCD.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\WM\WM_GUI.h
-.\objects\checkbox_createindirect.o: ..\uCGUI\Widget\DIALOG_Intern.h

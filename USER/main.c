@@ -70,6 +70,7 @@ GUI_MEMDEV_CopyToLCDAA(hMem);
 int main(void)
 {
 		u8 len, t;
+	int k;
 //		GUI_PID_STATE Point;
 		delay_init(168);	
 		Adc_Init();
@@ -92,12 +93,16 @@ int main(void)
 //		demo();
 //		WM_Exec();
 		KEY_Init();
-		GUI_CURSOR_Show();
+		//GUI_CURSOR_Show();
 		while(1)
 		{
 //				GUIDEMO_main();
 				//Run();
-				GUI_DispDec(key(),2);
+			
+			//test
+			k	=	key();
+				if(k != -1)
+					GUI_DispDec(k,2);
 				DIS_Delayms(1000);
 //				if(USART_RX_STA&0x8000)
 //				{					   

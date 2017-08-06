@@ -37,47 +37,47 @@ int key(void)  //???????????KeyVal,??????,???????????
 		}
 
 		
-	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00 | 0x0040));	//?PF6,?????1.   
+	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00 | 0x0001));	//?PF6,?????1.   
 	switch(GPIOG->IDR & 0x00F0)		                //?PE0,2,4,6??????,?????????
 	{//对应0246引脚
-		case 0x0001: KeyVal=1;	break;
-		case 0x0004: KeyVal=2;	break;
-		case 0x0010: KeyVal=3;	break;
-		case 0x0040: KeyVal=4;	break;
+		case 0x0010: KeyVal=1;	break;
+		case 0x0020: KeyVal=2;	break;
+		case 0x0040: KeyVal=3;	break;
+		case 0x0080: KeyVal=4;	break;
 	}
 //		while((GPIOG->IDR & 0x00F0)!=0x0000)
 //		delay_us(1);
 	
 	
-	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0010));	//?PF4,?????1.
+	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0004));	//?PF4,?????1.
 	switch(GPIOG->IDR & 0x00F0)		                //?PE0,2,4,6??????,?????????
 	{
-		case 0x0001: KeyVal=5;	break;
-		case 0x0004: KeyVal=6;	break;
-		case 0x0010: KeyVal=7;	break;
-		case 0x0040: KeyVal=8;	break;
+		case 0x0010: KeyVal=5;	break;
+		case 0x0020: KeyVal=6;	break;
+		case 0x0040: KeyVal=7;	break;
+		case 0x0080: KeyVal=8;	break;
 	}
 //		while((GPIOG->IDR & 0x00F0)!=0x0000)		//松手检测
 //		delay_us(1);
 
-	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0004));	//?PF2,?????1.
+	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0010));	//?PF2,?????1.
 	switch(GPIOG->IDR & 0x00F0)		                //?PE0,2,4,6??????,?????????
 	{
-		case 0x0001: KeyVal=9;	break;
-		case 0x0004: KeyVal=10;	break;
-		case 0x0010: KeyVal=11;	break;
-		case 0x0040: KeyVal=12;	break;
+		case 0x0010: KeyVal=9;	break;
+		case 0x0020: KeyVal=10;	break;
+		case 0x0040: KeyVal=11;	break;
+		case 0x0080: KeyVal=12;	break;
 	}
 //		while((GPIOG->IDR & 0x00F0)!=0x0000)		//????
 //		delay_us(1);
 		
-	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0001));	//?PF0,?????1.
+	GPIO_Write(GPIOF,(GPIOF->ODR & 0xff00|0x0040));	//?PF0,?????1.
 	switch(GPIOG->IDR & 0x00F0)		               //?PE0,2,4,6??????,?????????
 	{
-		case 0x0001: KeyVal=13;	break;
-		case 0x0004: KeyVal=14;	break;
-		case 0x0010: KeyVal=15;	break;
-		case 0x0040: KeyVal=16;	break;
+		case 0x0010: KeyVal=13;	break;
+		case 0x0020: KeyVal=14;	break;
+		case 0x0040: KeyVal=15;	break;
+		case 0x0080: KeyVal=16;	break;
 	}
 //	while((GPIOG->IDR & 0x00F0)!=0x0000)			//????
 //		delay_us(1);
