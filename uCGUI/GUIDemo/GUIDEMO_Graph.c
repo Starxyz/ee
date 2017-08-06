@@ -22,7 +22,7 @@ Purpose     : Several GUIDEMO routines
 #include <math.h>
 #include <stdlib.h>
 #include "GUIDEMO.h"
-
+#include "adc.h"
 #if GUI_SUPPORT_MEMDEV
 
 /*********************************************************************
@@ -55,8 +55,8 @@ typedef struct {
   #define COLOR_GRAPH0 GUI_WHITE
   #define COLOR_GRAPH1 GUI_WHITE
 #else
-  #define COLOR_GRAPH0 GUI_GREEN
-  #define COLOR_GRAPH1 GUI_YELLOW
+  #define COLOR_GRAPH0 GUI_YELLOW
+  #define COLOR_GRAPH1 GUI_RED
 #endif
 
 /*********************************************************************
@@ -66,7 +66,7 @@ typedef struct {
 **********************************************************************
 */
 
-static int _YSize;
+static int _YSize;//_YSize = (LCD_YSIZE - 100)=140
 
 /*********************************************************************
 *
@@ -74,7 +74,7 @@ static int _YSize;
 *
 **********************************************************************
 */
-
+//Draws grid
 static void _Draw(void * p) {
   int i;
   PARAM * pParam = (PARAM *)p;
@@ -97,8 +97,9 @@ static void _Draw(void * p) {
 static void _Draw2(void * p) {
   PARAM * pParam = (PARAM *)p;
   _Draw(p);
-  GUI_SetColor(COLOR_GRAPH1);
-  GUI_DrawGraph(pParam->aY+15, (LCD_XSIZE - 20), 19, (LCD_YSIZE - 20) - _YSize);
+	//取消第二个图像
+  GUI_SetColor(GUI_WHITE);
+//  GUI_DrawGraph(pParam->aY+15, (LCD_XSIZE - 20), 19, (LCD_YSIZE - 20) - _YSize);
 }
 
 /*********************************************************************
@@ -252,22 +253,25 @@ static void _DemoRandomGraph(void) {
 *       Draws a sine wave
 *
 **********************************************************************
-*/
-
+*/							
+												//I16= signed 16 bits. 
 static void _GetSineData(I16 * paY, int n) {
   int i;
-  for (i = 0; i < n; i++) {
-    float s = sin(i * DEG2RAD * 4);
-    paY[i] = s * _YSize / 2 + _YSize / 2;
-  }
+  for (i = 0; i < n; i++) {   //注意，y是向下增加的。
+    float s = (float)Get_Adc_Average(ch1,1)*(3.3/4096);//-sin(i * DEG2RAD * 4); 
+//		float s = -sin(i * DEG2RAD * 4);																				 //DEG2RAD角度转弧度
+    paY[i] = s*10  + _YSize / 2;   //0<paY<140;  
+		
+  }						 //_YSize = (LCD_YSIZE - 100) = 140
+	//GUI_DispDecAt(paY[80], 100, 0, 6);
 }
 
 static void _DemoSineWave(void) {
-  PARAM Param;
+  PARAM Param; //结构体
   I16 * pStart;
   int t0, Cnt = 0;
-  GUI_HMEM hMem;
-  GUI_RECT Rect;
+  GUI_HMEM hMem;  //signed 16
+  GUI_RECT Rect;  //结构体
   Rect.x0 = 19;
   Rect.y0 = (LCD_YSIZE - 20) - _YSize;
   Rect.x1 = LCD_XSIZE - 2;
@@ -291,7 +295,7 @@ static void _DemoSineWave(void) {
     } else {
       Param.aY = pStart;
     }
-    t1 = GUI_GetTime();
+    t1 = GUI_GetTime();            //pData
     GUI_MEMDEV_Draw(&Rect, _Draw2, &Param, 0, GUI_MEMDEV_NOTRANS);
     tDiff2 = GUI_GetTime() - t1;
     if (tDiff2 < 100) {
@@ -354,20 +358,20 @@ static void _DemoOrData(void) {
 
 void GUIDEMO_Graph(void) {
   #if GUIDEMO_LARGE
-    _YSize = (LCD_YSIZE - 100);
+    _YSize = (LCD_YSIZE - 100);  //图像边界的起点
   #else
     _YSize = (LCD_YSIZE -  30);
   #endif
-  GUIDEMO_ShowIntro("Drawing a graph",
-                    "\nOptimized drawing routine"
-                    "\nfor drawing graph data");
+//  GUIDEMO_ShowIntro("Drawing a graph",
+//                    "\nOptimized drawing routine"
+//                    "\nfor drawing graph data");
   GUI_Clear();
   _Label();
-  _DemoRandomGraph();
-  GUIDEMO_NotifyStartNext();
+//  _DemoRandomGraph();
+//  GUIDEMO_NotifyStartNext();
   _DemoSineWave();
-  GUIDEMO_NotifyStartNext();
-  _DemoOrData();
+//  GUIDEMO_NotifyStartNext();
+//  _DemoOrData();
 }
 
 #elif defined(NC30) || defined(NC308)

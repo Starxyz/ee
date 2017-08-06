@@ -11,6 +11,8 @@
 #include <string.h>
 #include "GUI.h"
 #include "FRAMEWIN.h"
+
+#include "key.h"
 //static void  CallbackChild(WM_MESSAGE *pMsg)
 //{
 //	WM_HWIN hWin = (FRAMEWIN_Handle)(pMsg->hWin);
@@ -53,10 +55,13 @@
 //***************************************************************
 //#include "GUI.h"
 extern void GUIDEMO_main(void);
-extern void DIS_Delayms(u16 Num);
+//extern void DIS_Delayms(u16 Num);
 void demo(){
-		WM_HWIN win_id;
-		win_id = CreateFramewin(WM_HBKWIN);
+GUI_MEMDEV_Handle hMem = GUI_MEMDEV_Create(0,0,320,240);
+GUI_MEMDEV_Select(hMem);
+//GUI_SetFont(&GUI_Font32B_ASCII);
+GUI_DispString("Text is good to read h \n eadsaldkasdk");
+GUI_MEMDEV_CopyToLCDAA(hMem);
 		
 }
 /*-------------------------------------------------------------------------------------------------------
@@ -64,13 +69,13 @@ void demo(){
 /-------------------------------------------------------------------------------------------------------*/
 int main(void)
 {
-//测试ADC
-// 	u16 adcx;
-//	float temp;
-	GUI_PID_STATE Point;
-	delay_init(168);	
-	Adc_Init();
+		u8 len, t;
+//		GUI_PID_STATE Point;
+		delay_init(168);	
+		Adc_Init();
 	
+		UartInit(9600);
+
 		//驱动初始化
 		BSP_Init();
 		//GUI模块初始化
@@ -84,18 +89,43 @@ int main(void)
 //		GUI_Clear();		
 ////		WM_ShowWindow(win_id);
 //		GUI_CURSOR_SetPosition(100,200); 
-		demo();
+//		demo();
 //		WM_Exec();
+		KEY_Init();
 		GUI_CURSOR_Show();
 		while(1)
 		{
 //				GUIDEMO_main();
-				GUI_TOUCH_Exec(); //???10ms????
-				DIS_Delayms(10);
-				GUI_TOUCH_GetState(&Point);
-				GUI_CURSOR_SetPosition(Point.x,Point.y);
-				WM_Exec();
-				DIS_Delayms(10);
+				//Run();
+				GUI_DispDec(key(),2);
+				DIS_Delayms(1000);
+//				if(USART_RX_STA&0x8000)
+//				{					   
+//					len=USART_RX_STA&0x3fff;//得到此次接收到的数据长度
+//					for(t=0;t<len;t++)
+//					{
+//						USART_SendData(USART1, USART_RX_BUF[t]);         //向串口1发送数据
+//						while(USART_GetFlagStatus(USART1,USART_FLAG_TC)!=SET);//等待发送结束
+//						if(USART_RX_BUF[t]=='D')
+//							Run();
+//					}
+//					USART_RX_STA=0;
+//				}else
+//				{
+//					delay_ms(10);   
+//				}
+//				GUI_TOUCH_Exec(); //???10ms????
+//				DIS_Delayms(1000);
+//			USART_SendData(USART1, 'D');
+//			while(USART_GetFlagStatus(USART1, USART_FLAG_TC) != SET);
+//				GUI_TOUCH_GetState(&Point);
+//				GUI_CURSOR_SetPosition(Point.x,Point.y);
+//				DIS_Delayms(100);
+//				WM_Exec();
+//				DIS_Delayms(1000);
+//				GUI_Exec();
+//				GUI_Clear();
+//				DIS_Delayms(2000);//remain for a while
 
 		}
 }

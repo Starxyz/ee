@@ -971,6 +971,7 @@ static void _Label(const char * sText) {
   #if GUIDEMO_LARGE
     GUI_SetFont(&GUI_FontComic18B_ASCII);
     GUI_SetLBorder(5);
+		
     GUI_DispStringAt(sText, 5, 5);
     GUI_SetLBorder(0);
   #else

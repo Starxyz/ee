@@ -1,6 +1,6 @@
 Dependencies for Project 'STM32F4_DEMO', Target 'Target 1': (DO NOT MODIFY !)
-F (..\USER\main.c)(0x59045C83)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\USER\includes.h)(0x57BEA8FF)
+F (..\USER\main.c)(0x5985CF70)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\USER\includes.h)(0x592BCF54)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -47,15 +47,15 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
-I (..\USER\draw.h)(0x58FBFEE2)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
-I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
-I (..\uCGUI\Core\GUIVersion.h)(0x412A7FD0)
-I (..\USER\adc.h)(0x58ED7E0F)
+I (..\USER\draw.h)(0x5985694D)
+I (..\USER\adc.h)(0x5985681C)
 I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
+I (..\uCGUI\Core\GUIVersion.h)(0x412A7FD0)
 I (..\uCGUI\Widget\FRAMEWIN.h)(0x4123EF62)
+I (..\USER\key.h)(0x5985CA13)
 F (..\USER\stm32f4xx_it.c)(0x58731179)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (..\USER\stm32f4xx_it.h)(0x5426CDC1)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
@@ -98,9 +98,10 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\Core\GUIVersion.h)(0x412A7FD0)
-F (..\USER\draw.c)(0x58FBFEE2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\draw.o --omf_browse .\objects\draw.crf --depend .\objects\draw.d)
-I (..\USER\draw.h)(0x58FBFEE2)
-I (..\USER\includes.h)(0x57BEA8FF)
+F (..\USER\draw.c)(0x5985CE1A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\draw.o --omf_browse .\objects\draw.crf --depend .\objects\draw.d)
+I (..\USER\draw.h)(0x5985694D)
+I (..\USER\adc.h)(0x5985681C)
+I (..\USER\includes.h)(0x592BCF54)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -136,20 +137,31 @@ I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\BSP\BSP.h)(0x57CD18A8)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
-I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
+I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
+I (..\uCGUI\Core\gui.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\Core\GUIVersion.h)(0x412A7FD0)
+I (..\uCGUI\Widget\button.h)(0x4123EF62)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\USER\adc.h)(0x58ED7E0F)
-I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
-F (..\USER\adc.c)(0x58F38121)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (..\USER\adc.h)(0x58ED7E0F)
-I (..\USER\includes.h)(0x57BEA8FF)
+I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
+I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
+I (..\uCGUI\WM\WM_Intern.h)(0x4123EF62)
+I (..\uCGUI\Core\GUI_Protected.h)(0x4123EF60)
+I (..\uCGUI\Core\LCD_Protected.h)(0x4123EF60)
+I (..\uCGUI\Core\GUIDebug.h)(0x4123EF60)
+I (..\uCGUI\Core\GUI_X.h)(0x4123EF60)
+I (..\uCGUI\Widget\SCROLLBAR.h)(0x4123EF62)
+I (..\uCGUI\GUIDemo\guidemo.h)(0x4123EF62)
+I (..\uCGUI\Core\LCD_ConfDefaults.h)(0x4123EF60)
+I (..\uCGUI\Config\LCDConf.h)(0x58FBFEE2)
+I (..\USER\key.h)(0x5985CA13)
+F (..\USER\adc.c)(0x5985749D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\USER\adc.h)(0x5985681C)
+I (..\USER\includes.h)(0x592BCF54)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -188,7 +200,7 @@ I (..\BSP\BSP.h)(0x57CD18A8)
 I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
 F (..\SYSTEM\delay\delay.c)(0x58ECCF1D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
-I (..\USER\includes.h)(0x57BEA8FF)
+I (..\USER\includes.h)(0x592BCF54)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -224,8 +236,8 @@ I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\BSP\BSP.h)(0x57CD18A8)
-F (..\USER\FramewinDLG.c)(0x58FC0D81)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\framewindlg.o --omf_browse .\objects\framewindlg.crf --depend .\objects\framewindlg.d)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+F (..\USER\FramewinDLG.c)(0x590C7370)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\framewindlg.o --omf_browse .\objects\framewindlg.crf --depend .\objects\framewindlg.d)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
@@ -252,6 +264,90 @@ I (..\uCGUI\Widget\MULTIEDIT.h)(0x4123EF62)
 I (..\uCGUI\Widget\RADIO.h)(0x4123EF62)
 I (..\uCGUI\Widget\SLIDER.h)(0x4123EF62)
 I (..\uCGUI\Widget\TEXT.h)(0x4123EF62)
+F (..\USER\usart.c)(0x593563E3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\USER\includes.h)(0x592BCF54)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
+I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\Libraries\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\Libraries\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\misc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\BSP\BSP.h)(0x57CD18A8)
+I (..\USER\adc.h)(0x5985681C)
+I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
+I (..\uCGUI\Core\gui.h)(0x58FBFEE2)
+I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
+I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
+I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
+I (..\uCGUI\Core\LCD.h)(0x4123EF60)
+I (..\uCGUI\Core\GUIVersion.h)(0x412A7FD0)
+F (..\USER\key.c)(0x5985D2C9)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\USER\key.h)(0x5985CA13)
+I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
+I (..\USER\includes.h)(0x592BCF54)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
+I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\Libraries\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\Libraries\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\misc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\BSP\BSP.h)(0x57CD18A8)
 F (..\Libraries\src\misc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\Libraries\inc\misc.h)(0x53DBAFAD)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
@@ -462,6 +558,41 @@ I (..\Libraries\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\Libraries\src\stm32f4xx_usart.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (..\Libraries\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
+I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\Libraries\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\Libraries\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\misc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 F (..\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x57B3E563)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
@@ -499,7 +630,7 @@ I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 F (..\Startup\startup_stm32f40_41xxx.s)(0x53DBBC53)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
 F (..\BSP\BSP.c)(0x57BEB837)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
-I (..\USER\includes.h)(0x57BEA8FF)
+I (..\USER\includes.h)(0x592BCF54)
 I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
 I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -4515,7 +4646,7 @@ I (..\uCGUI\Core\LCD_Protected.h)(0x4123EF60)
 I (..\uCGUI\Core\GUIDebug.h)(0x4123EF60)
 I (..\uCGUI\Core\GUI_X.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-F (..\uCGUI\MemDev\GUIDEV_Banding.c)(0x5333C9A0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidev_banding.o --omf_browse .\objects\guidev_banding.crf --depend .\objects\guidev_banding.d)
+F (..\uCGUI\MemDev\GUIDEV_Banding.c)(0x590ED190)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidev_banding.o --omf_browse .\objects\guidev_banding.crf --depend .\objects\guidev_banding.d)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (..\uCGUI\Core\GUI_Private.h)(0x4123EF60)
 I (..\uCGUI\Core\GUI_Protected.h)(0x4123EF60)
@@ -5362,7 +5493,7 @@ I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\CHECKBOX.h)(0x4123EF62)
 F (..\uCGUI\Widget\DIALOG.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\dialog.o --omf_browse .\objects\dialog.crf --depend .\objects\dialog.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
@@ -7013,7 +7144,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (..\uCGUI\Widget\LISTVIEW_Private.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7036,7 +7167,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7066,7 +7197,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7097,7 +7228,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7129,7 +7260,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7161,7 +7292,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7193,7 +7324,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7226,7 +7357,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7258,7 +7389,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7290,7 +7421,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7322,7 +7453,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7354,7 +7485,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7386,7 +7517,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7418,7 +7549,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7450,7 +7581,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7482,7 +7613,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7514,7 +7645,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7547,7 +7678,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7580,7 +7711,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7612,7 +7743,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7644,7 +7775,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7676,7 +7807,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7708,7 +7839,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7740,7 +7871,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -7772,7 +7903,7 @@ I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
 I (..\uCGUI\Widget\LISTVIEW.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8177,7 +8308,7 @@ I (..\uCGUI\Core\GUI_X.h)(0x4123EF60)
 I (..\uCGUI\Widget\SCROLLBAR.h)(0x4123EF62)
 I (..\uCGUI\Widget\FRAMEWIN.h)(0x4123EF62)
 I (..\uCGUI\Widget\TEXT.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\CHECKBOX.h)(0x4123EF62)
 I (..\uCGUI\Widget\DROPDOWN.h)(0x4123EF62)
 I (..\uCGUI\Widget\EDIT.h)(0x4123EF62)
@@ -8196,7 +8327,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8224,7 +8355,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8253,7 +8384,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8292,7 +8423,7 @@ I (..\uCGUI\WM\WM_Intern.h)(0x4123EF62)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\Widget\MULTIPAGE_Private.h)(0x4123EF62)
 I (..\uCGUI\Widget\MULTIPAGE.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8314,7 +8445,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8343,7 +8474,7 @@ I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
 I (..\uCGUI\Core\GUIType.h)(0x4123EF60)
 I (..\uCGUI\Core\LCD.h)(0x4123EF60)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -8377,7 +8508,7 @@ I (..\uCGUI\Core\GUI_X.h)(0x4123EF60)
 I (..\uCGUI\Widget\MULTIPAGE.h)(0x4123EF62)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -9148,7 +9279,7 @@ I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 F (..\uCGUI\Widget\WINDOW.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\window.o --omf_browse .\objects\window.crf --depend .\objects\window.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
@@ -9176,7 +9307,7 @@ I (..\uCGUI\Widget\RADIO.h)(0x4123EF62)
 I (..\uCGUI\Widget\SLIDER.h)(0x4123EF62)
 I (..\uCGUI\Widget\TEXT.h)(0x4123EF62)
 F (..\uCGUI\Widget\WINDOW_Default.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\window_default.o --omf_browse .\objects\window_default.crf --depend .\objects\window_default.d)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
@@ -10752,7 +10883,7 @@ I (..\uCGUI\Core\LCD_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\LCDConf.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)
@@ -10771,7 +10902,7 @@ I (..\uCGUI\Widget\MULTIEDIT.h)(0x4123EF62)
 I (..\uCGUI\Widget\RADIO.h)(0x4123EF62)
 I (..\uCGUI\Widget\SLIDER.h)(0x4123EF62)
 I (..\uCGUI\Widget\TEXT.h)(0x4123EF62)
-F (..\uCGUI\GUIDemo\GUIDEMO_Font.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidemo_font.o --omf_browse .\objects\guidemo_font.crf --depend .\objects\guidemo_font.d)
+F (..\uCGUI\GUIDemo\GUIDEMO_Font.c)(0x590ECE6E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidemo_font.o --omf_browse .\objects\guidemo_font.crf --depend .\objects\guidemo_font.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
 I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
@@ -10805,7 +10936,7 @@ I (..\uCGUI\Core\GUI_X.h)(0x4123EF60)
 I (..\uCGUI\Widget\SCROLLBAR.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\FRAMEWIN.h)(0x4123EF62)
-F (..\uCGUI\GUIDemo\GUIDEMO_Graph.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidemo_graph.o --omf_browse .\objects\guidemo_graph.crf --depend .\objects\guidemo_graph.d)
+F (..\uCGUI\GUIDemo\GUIDEMO_Graph.c)(0x592B9EEB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidemo_graph.o --omf_browse .\objects\guidemo_graph.crf --depend .\objects\guidemo_graph.d)
 I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\GUIConf.h)(0x5788ABD0)
@@ -10817,6 +10948,44 @@ I (..\uCGUI\Config\LCDConf.h)(0x58FBFEE2)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (..\uCGUI\GUIDemo\GUIDEMO.h)(0x4123EF62)
+I (..\USER\adc.h)(0x5985681C)
+I (..\USER\includes.h)(0x592BCF54)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x57B3E59F)
+I (..\CMSIS\Include\core_cm4.h)(0x53C7D530)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\CMSIS\Include\core_cmInstr.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\Include\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\Libraries\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\Libraries\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\Libraries\inc\misc.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\Libraries\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\BSP\BSP.h)(0x57CD18A8)
+I (..\SYSTEM\delay\delay.h)(0x58ECCF03)
 F (..\uCGUI\GUIDemo\GUIDEMO_HardwareInfo.c)(0x4123EF62)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries\src -I ..\USER -I ..\CMSIS\Include -I ..\CMSIS\Device\ST\STM32F4xx\Include -I ..\BSP -I ..\uCGUI\AntiAlias -I ..\uCGUI\Config -I ..\uCGUI\ConvertColor -I ..\uCGUI\ConvertMono -I ..\uCGUI\Core -I ..\uCGUI\Font -I ..\uCGUI\LCDDriver -I ..\uCGUI\MemDev -I ..\uCGUI\MultiLayer -I ..\uCGUI\Widget -I ..\uCGUI\WM -I ..\uCGUI\JPEG -I ..\uCGUI\GUI_X -I ..\uCGUI\GUIDemo -I ..\CMSIS\Inc -I ..\SYSTEM\delay-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\guidemo_hardwareinfo.o --omf_browse .\objects\guidemo_hardwareinfo.crf --depend .\objects\guidemo_hardwareinfo.d)
 I (..\uCGUI\Core\GUI.h)(0x58FBFEE2)
 I (..\uCGUI\Core\GUI_ConfDefaults.h)(0x4123EF60)
@@ -10874,7 +11043,7 @@ I (..\uCGUI\Core\LCD_ConfDefaults.h)(0x4123EF60)
 I (..\uCGUI\Config\LCDConf.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM.h)(0x58FBFEE2)
 I (..\uCGUI\WM\WM_GUI.h)(0x4123EF62)
-I (..\uCGUI\Widget\DIALOG.h)(0x4123EF62)
+I (..\uCGUI\Widget\DIALOG.h)(0x590C6110)
 I (..\uCGUI\Widget\BUTTON.h)(0x4123EF62)
 I (..\uCGUI\Widget\DIALOG_Intern.h)(0x4123EF62)
 I (..\uCGUI\Widget\WIDGET.h)(0x4123EF62)

@@ -6,11 +6,13 @@ void Adc_Init(void)
 	ADC_InitTypeDef       ADC_InitStructure;
 	
 	
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);//使能GPIOA时钟
+  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOC
+														|RCC_AHB1Periph_GPIOD, ENABLE);//使能GPIOA\C\D时钟
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE); //使能ADC1时钟	
+	
 
   //先初始化ADC1通道1 IO口
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;//PA5 通道5
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;//PA1 通道
   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;//模拟输入
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL ;//不带上下拉
   GPIO_Init(GPIOA, &GPIO_InitStructure);//初始化	
@@ -32,10 +34,27 @@ void Adc_Init(void)
   ADC_Init(ADC1, &ADC_InitStructure);//ADC初始化
 	
  
-	ADC_Cmd(ADC1, ENABLE);//开启AD转换器		
+	ADC_Cmd(ADC1, ENABLE);//开启AD转换器	
 	
+	//ledInit
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;//PC0 
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;//SHANG LA
+  GPIO_Init(GPIOC, &GPIO_InitStructure);//初始
 	
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;//PD3
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;//SHANG LA
+  GPIO_Init(GPIOD, &GPIO_InitStructure);//初始
+		GPIO_ResetBits(GPIOC,GPIO_Pin_0);
+		GPIO_ResetBits(GPIOD,GPIO_Pin_3);	
 }
+
+
 
 //获得ADC值
 //ch: @ref ADC_channels 

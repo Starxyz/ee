@@ -29,9 +29,7 @@
 *
 **********************************************************************
 */
-#define ID_FRAMEWIN_0 (GUI_ID_USER + 0x00)
-#define ID_BUTTON_0 (GUI_ID_USER + 0x01)
-#define ID_CHECKBOX_0 (GUI_ID_USER + 0x02)
+#define ID_FRAMEWIN_0   (GUI_ID_USER + 0x00)
 
 
 // USER START (Optionally insert additional defines)
@@ -53,8 +51,6 @@
 */
 static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
   { FRAMEWIN_CreateIndirect, "Framewin", ID_FRAMEWIN_0, 0, 0, 320, 240, 0, 0x0},
-  { BUTTON_CreateIndirect, "Button", ID_BUTTON_0, 110, 125, 80, 20, 0, 0x0},
-  { CHECKBOX_CreateIndirect, "Checkbox", ID_CHECKBOX_0, 110, 95, 80, 20, 0, 0x0},
   // USER START (Optionally insert additional widgets)
   // USER END
 };
@@ -73,76 +69,11 @@ static const GUI_WIDGET_CREATE_INFO _aDialogCreate[] = {
 *
 *       _cbDialog
 */
-void WM_HideWindow(WM_HWIN hWin);  //??????,hWin??????
-void WM_ShowWindow(WM_HWIN hWin);  //??????,hWin??????
 static void _cbDialog(WM_MESSAGE * pMsg) {
-  WM_HWIN hItem;
-  int     NCode;
-  int     Id;
   // USER START (Optionally insert additional variables)
   // USER END
 
   switch (pMsg->MsgId) {
-  case WM_INIT_DIALOG:
-    //
-    // Initialization of 'Button'
-    //
-    hItem = WM_GetDialogItem(pMsg->hWin, ID_BUTTON_0);
-    BUTTON_SetText(hItem, "ok'letsgo");
-    //
-    // Initialization of 'Checkbox'
-    //
-    hItem = WM_GetDialogItem(pMsg->hWin, ID_CHECKBOX_0);
-    CHECKBOX_SetText(hItem, "Select Me!");
-    // USER START (Optionally insert additional code for further widget initialization)
-    // USER END
-    break;
-  case WM_NOTIFY_PARENT:
-    Id    = WM_GetId(pMsg->hWinSrc);
-    NCode = pMsg->Data.v;
-    switch(Id) {
-    case ID_BUTTON_0: // Notifications sent by 'Button'
-      switch(NCode) {
-      case WM_NOTIFICATION_CLICKED:
-        // USER START (Optionally insert code for reacting on notification message)
-        // USER END
-        break;
-      case WM_NOTIFICATION_RELEASED:
-        // USER START (Optionally insert code for reacting on notification message)
-					hItem = WM_GetDialogItem(pMsg->hWin, ID_CHECKBOX_0);//??ID_CHECKBOX_0????
-					if(CHECKBOX_IsChecked(hItem)) 
-						CHECKBOX_Uncheck(hItem);//ID_CHECKBOX_0????
-					else 
-						CHECKBOX_Check(hItem);// ID_CHECKBOX_0??
-					
-			// USER END
-        break;
-      // USER START (Optionally insert additional code for further notification handling)
-      // USER END
-      }
-      break;
-    case ID_CHECKBOX_0: // Notifications sent by 'Checkbox'
-      switch(NCode) {
-      case WM_NOTIFICATION_CLICKED:
-        // USER START (Optionally insert code for reacting on notification message)
-        // USER END
-        break;
-      case WM_NOTIFICATION_RELEASED:
-        // USER START (Optionally insert code for reacting on notification message)
-        // USER END
-        break;
-      case WM_NOTIFICATION_VALUE_CHANGED:
-        // USER START (Optionally insert code for reacting on notification message)
-        // USER END
-        break;
-      // USER START (Optionally insert additional code for further notification handling)
-      // USER END
-      }
-      break;
-    // USER START (Optionally insert additional code for further Ids)
-    // USER END
-    }
-    break;
   // USER START (Optionally insert additional message handling)
   // USER END
   default:

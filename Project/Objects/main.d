@@ -48,11 +48,11 @@
 .\objects\main.o: ..\uCGUI\WM\WM_GUI.h
 .\objects\main.o: ..\uCGUI\Widget\DIALOG_Intern.h
 .\objects\main.o: ..\USER\draw.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-.\objects\main.o: ..\uCGUI\Core\GUI.h
-.\objects\main.o: ..\uCGUI\Core\GUIVersion.h
 .\objects\main.o: ..\USER\adc.h
 .\objects\main.o: ..\SYSTEM\delay\delay.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: ..\uCGUI\Core\GUI.h
+.\objects\main.o: ..\uCGUI\Core\GUIVersion.h
 .\objects\main.o: ..\uCGUI\Widget\FRAMEWIN.h
+.\objects\main.o: ..\USER\key.h
